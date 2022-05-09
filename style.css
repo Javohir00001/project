@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li,
+ol,
+ul {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+    width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+body,
+html {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #000;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+._container {
+    max-width: 1046px;
+    margin: 0 auto;
+}
